@@ -1,0 +1,18 @@
+
+{
+    "llm": {
+        "disable_chat_history": false,
+        "model": "llama3.2"
+    },
+    "stt": {
+        "device": "cuda",
+        "generation_args": {
+            "batch_size": 8
+        },
+        "model": "openai/whisper-small.en"
+    },
+    "tts": {
+        "device": "cuda",
+        "model": "tts_models/en/ljspeech/glow-tts"
+    }
+}
