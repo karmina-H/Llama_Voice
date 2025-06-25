@@ -11,3 +11,7 @@ pip install -e .
 ollama pull llama3.1:8b-instruct-q4_0
 
 june-va
+
+
+
+reference : https://github.com/mezbaul-h/june?tab=readme-ov-file
